@@ -3,7 +3,7 @@
     "name": "hybrid-app",
     "slug": "hybrid-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "hybridapp",
     "userInterfaceStyle": "automatic",
@@ -16,7 +16,11 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.durgarajvsure.hybridapp",
+      "softwareKeyboardLayoutMode": "pan",
+      "screenOrientation": "default",
+      "resizeMode": "contain"
     },
     "web": {
       "bundler": "metro",
